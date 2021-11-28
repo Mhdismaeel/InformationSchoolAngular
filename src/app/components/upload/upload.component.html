@@ -1,0 +1,19 @@
+<div>
+  <div>
+    <mat-label >Image Profile</mat-label>
+
+  </div>
+
+  <input type="file" #file placeholder="Choose file" (change)="uploadFile(file.files)" style="display:none;">
+<button type="button" mat-raised-button color="primary" (click)="file.click()">Upload File</button>
+
+<div>
+  <span class="upload" *ngIf="progress > 0">
+    {{progress}}%
+  </span>
+  <span class="upload" *ngIf="message">
+    {{message}}
+  </span>
+</div>
+
+</div>

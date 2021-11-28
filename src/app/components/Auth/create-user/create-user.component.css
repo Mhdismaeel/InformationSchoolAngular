@@ -1,0 +1,12 @@
+.example-card {
+  max-width: 50%;
+}
+.example-full-width {
+  width: 100%;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
